@@ -1,11 +1,14 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useHome } from "@/hooks/useHome";
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import hero from "@/assets/images/home/svgviewer-output.svg";
 import { useTranslations } from "next-intl";
 export default function Hero() {
+	interface Section {
+		title: string;
+	  }
 	const t = useTranslations("landingPage");
 
 	const { data, isLoading, error } = useHome();
@@ -13,7 +16,7 @@ export default function Hero() {
 	if (isLoading) return null;
 	if (error) return <p>Error loading home data</p>;
 
-	const headerSection = data?.sections.find((sec : string) => sec.title === "header");
+	const headerSection = data?.sections.find((sec: Section) => sec.title === "header");
 	/* 	const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.ymtaz.sa/api/"; 
 	const imageUrl = `${BASE_URL}${headerSection.image.url}`; */
 	return (
@@ -26,7 +29,7 @@ export default function Hero() {
 							<div className="z-10 flex">
 								<Image alt="app" src={hero} width={0} height={0} className="img-fluid  wow animate__animated animate__bounceInUp  " />
 							</div>
-							<p className="mt-4 text-[17px] color-silver z-10 font-medium ">
+							<p className="mt-4 font text-[17px] color-silver z-10 font-medium ">
 																<i className="fa-solid fa-clock me-2 "></i> {t("homeSectionView.message")}
 								
 							</p>
