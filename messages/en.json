@@ -1,83 +1,68 @@
 {
-    "mainLayout": {
-        "metadata": {
-            "title": "ymtaz",
-            "description": "At ymtaz, we bring your cinematic dreams to life"
-        }
-    },
-    "HomePage": {
-        "title": "Hello world",
-        "about": "Go to the about page"
-    },
-    "landingPage": {
-        "about": {
-          "why": "Why Choose Our App?",
-          "points": {
-            "continuousUpdates": "The app provides continuous updates on new laws and regulations that may affect your legal status.",
-            "legalAdvice": "You can get legal advice anytime and from anywhere through the app.",
-            "bookAppointments": "You can quickly and easily book appointments with lawyers and legal experts without the need to visit offices.",
-            "confidentiality": "Your personal and legal information is kept strictly confidential through the app.",
-            "documentManagement": "You can organize and manage your legal documents and cases easily through the app.",
-            "securePayments": "You can pay consultation and legal service fees through the app using secure and easy payment methods."
-          }
-        },
-        "assistantSection": {
-          "title": "Supporting systems"
-        },
-        "homeSectionView": {
-          "title": "Discover a new world of ease and security with Ymtaz!",
-          "ymtaz": "Ymtaz",
-          "subtitle": "Provides you with all legal services and consultations",
-          "subtitle2": "With all professionalism and expertise by a group of specialized consultants",
-          "login": "Login",
-          "register": "Register",
-          "message": "24/7 Electronic Services"
-    
-        },
-        "optionsSection": {
-          "consultationWindow": {
-            "title": "Consultation Window",
-            "description": "You can request your written or visual consultation in various legal specialties, whether you are an individual, company, or legal entity. This is done through a professional electronic system with fast and productive interaction, and high technical and legal governance."
-          },
-          "servicesPortal": {
-            "title": "Services Portal",
-            "description": "You can request any legal service immediately, urgently, or scheduled by Ymtaz service providers. You will be served professionally within a distinctive legal service system in high demand."
-          },
-          "appointmentsMemo": {
-            "title": "Appointments Memo",
-            "description": "A unique service provided by Ymtaz to meet the requests of distinguished clients, including scheduling in-person or remote appointments to discuss client concerns and provide the necessary consultation at the appropriate time and place, according to a scheduling system that meets the increasing demand for this request."
-          },
-          "digitalGuide": {
-            "title": "Digital Guide",
-            "description": "Here, elite licensed lawyers, legal advisors, and certified professionals from various legal professions and regions of Saudi Arabia meet in a comprehensive digital guide. It facilitates communication with them and highlights their skills, experiences, and specialties in various distinguished legal fields."
-          },
-          "advisoryBoard": {
-            "title": "Advisory Board",
-            "description": "An elite group of distinguished legal professionals proficient in providing opinions and advice on sensitive, complex, and precise cases. They handle customer and service provider consultations with utmost precision and professionalism."
-          },
-          "judicialGuide": {
-            "title": "Judicial Guide",
-            "description": "A wide judicial guide, constantly updated, includes phone numbers, locations, and email addresses of all governmental, judicial, and quasi-judicial bodies. It covers all levels of litigation, courts, and entities directly related to judicial and legal work."
-          },
-          "libraryAndRegulations": {
-            "title": "Library and Regulations",
-            "description": "The library and regulations section includes everything related to Saudi systems, their regulations, and decisions, along with translations of their texts. It offers a very rich search system accompanied by a comprehensive legal researcher product specialized in all matters related to Saudi systems and judicial codices."
-          },
-          "trainingPlatform": {
-            "title": "Training Platform",
-            "description": "A unique product offered by Ymtaz to all those wishing to develop themselves in various legal fields for specialists or enhance legal awareness and culture for individuals through a distinguished training system rich in meticulously prepared content presented by elite legal trainers in various fields."
-          },
-          "lawGuide": "Law Guide"
-        },
-        "title": "New Joiners",
-        "subscribeSection": {
-          "title": "Subscribe to the newsletter to receive all the latest news",
-          "email": "Email",
-          "subscribe": "subscribe",
-          "info": "Once you send your email, you will receive the latest services provided by Imtaz"
-    
-        },
-        "subscribe": "subscribe"
-      }
+	"mainLayout": {
+		"metadata": {
+			"title": "ymtaz",
+			"description": "At ymtaz, we bring your cinematic dreams to life"
+		}
+	},
+	"landingPage": {
+		"about": {
+			"why": "Why Choose Our App?"
+		},
 
+		"assistantSection": {
+			"title": "Supporting systems"
+		},
+
+		"homeSectionView": {
+			"login": "Login",
+			"register": "Register",
+			"message": "24/7 Electronic Services"
+		},
+
+		"title": "New Joiners",
+		"subscribeSection": {
+			"subscribe": "subscribe",
+			"info": "Once you send your email, you will receive the latest services provided by Imtaz"
+		}
+	},
+	"footer": {
+		"main2": "We are currently operating in Saudi Arabia and Egypt, and soon across the entire Middle East.",
+		"time": "Sunday to Thursday - from 9 AM to 5 PM",
+		"hint": "Electronic services are available 24/7",
+		"quickLinks": "Quick Links",
+		"contact": "Contact",
+		"copyRight": "All rights reserved to Arkan Communications and Information Technology Company © 2024",
+		"phone": " Phone",
+		"saudi": " Saudi",
+		"contactus": "Contact Us ",
+		"links": {
+			"home": "Home",
+			"about": "About Us",
+			"lawyers": "New Lawyers",
+			"systems": "Systems",
+			"whatsapp": "whatsapp"
+		}
+	},
+
+	"accountType": {
+		"form": "Ymtaz electronic platform is your ideal platform for obtaining comprehensive legal solutions easily, quickly, and securely.",
+		"login": {
+			"title": "Login",
+			"description": " ",
+			"donthaveAccount": "Don't have an account?",
+			"login": "Login",
+			"signup": "Sign up",
+			"guest": "Browse as Guest"
+		},
+		"signup": {
+			"title": "Join Us",
+			"description": "Choose the type of account you want to create",
+			"haveAccount": "Already have an account?",
+			"login": "Login",
+			"signup": "Sign up"
+		},
+		"serviceSeeker": "Service Seeker",
+		"serviceProvider": "Service Provider"
+	}
 }

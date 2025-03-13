@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/lib/AddWow.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/lib/AddWow.ts", "src/app/[locale]/(auth)/register/client/page.jsx", "src/app/[locale]/(auth)/register/provider/page.jsx"],
   "exclude": ["node_modules"]
 }
